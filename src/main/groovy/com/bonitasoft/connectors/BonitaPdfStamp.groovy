@@ -76,7 +76,7 @@ class BonitaPdfStamp extends AbstractConnector {
         PdfStamp pdfStamp = new PdfStamp()
         pdfStamp.stampPdfFile(source, target, stamp, x, y)
 
-        DocumentValue result = new DocumentValue(target.bytes, pdfInput.contentMimeType, pdfInput.contentFileName + 'stamped')
+        DocumentValue result = new DocumentValue(target.bytes, pdfInput.contentMimeType, pdfInput.contentFileName + '-stamped.pdf')
 
         setOutputParameter(RESULT_OUTPUT, result)
     }
