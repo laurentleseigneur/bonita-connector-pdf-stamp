@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+    <id>bonita-connector-pdf-stamp</id> <!-- Id of the definition -->
+    <version>1.0</version> <!-- Version of the definition -->
+    <icon>connector.png</icon> <!-- The icon used in the Studio for this definition -->
+    <category icon="connector.png" id="Custom"/> <!-- The category of this definition, used in the Studio (e.g: http, script ...) -->
+
+    <input mandatory="true" name="pdfDocument" type="org.bonitasoft.engine.bpm.document.Document"/>
+    <input mandatory="true" name="stamp" type="org.bonitasoft.engine.bpm.document.Document"/>
+    <input mandatory="true" name="x" type="java.lang.Integer"/>
+    <input mandatory="true" name="y" type="java.lang.Integer"/>
+    <output name="result" type="org.bonitasoft.engine.bpm.document.DocumentValue"/>
+    <page id="Parameters">
+    <widget xsi:type="definition:ScriptEditor" id="pdfDoc" inputName="pdfDocument"/>
+    <widget xsi:type="definition:ScriptEditor" id="stamp" inputName="stamp"/>
+    <widget xsi:type="definition:Text" id="xValue" inputName="x"/>
+    <widget xsi:type="definition:Text" id="yPosition" inputName="y"/>
+    </page>
+</definition:ConnectorDefinition>
