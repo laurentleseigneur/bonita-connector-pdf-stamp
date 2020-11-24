@@ -19,7 +19,7 @@ jobs:
           git-release-bot-name: "release-bot"
           git-release-bot-email: "release-bot@github.com"
           skip-perform: true
-          access-token: ${{ secrets.PAT }}
+          access-token: ${{ secrets.GITHUB_TOKEN }}
 
   create-release:
     name: Create Release
