@@ -3,7 +3,7 @@
 
     <groupId>com.bonitasoft.connectors</groupId>
     <artifactId>bonita-connector-pdf-stamp</artifactId>
-    <version>1.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>bonita-connector-pdf-stamp</name>
     <packaging>jar</packaging>
 
