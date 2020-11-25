@@ -3,7 +3,7 @@
 
     <groupId>com.bonitasoft.connectors</groupId>
     <artifactId>bonita-connector-pdf-stamp</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>bonita-connector-pdf-stamp</name>
     <packaging>jar</packaging>
 
@@ -206,6 +206,6 @@
         <url>https://github.com/laurentleseigneur/bonita-connector-pdf-stamp</url>
         <connection>scm:git:https://github.com/laurentleseigneur/bonita-connector-pdf-stamp.git</connection>
         <developerConnection>scm:git:https://github.com/laurentleseigneur/bonita-connector-pdf-stamp.git</developerConnection>
-        <tag>bonita-connector-pdf-stamp-1.0.2</tag>
+        <tag>bonita-connector-pdf-stamp-1.0</tag>
   </scm>
 </project>
