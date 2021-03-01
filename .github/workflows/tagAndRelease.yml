@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
 
       - uses: qcastel/github-actions-maven-release@master
         with:
