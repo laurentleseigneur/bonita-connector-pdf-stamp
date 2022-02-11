@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.build.timestamp.format>yyyy.MM.dd-hh.mm</maven.build.timestamp.format>
-        <itext.version>7.1.12</itext.version>
+        <itext.version>7.2.0</itext.version>
 
         <!-- Connector -->
         <connector-definition-id>${project.artifactId}</connector-definition-id>
